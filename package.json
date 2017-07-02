@@ -1,0 +1,28 @@
+{
+  "name": "get-blob",
+  "version": "0.0.1",
+  "description": "Get a `Blob` and return an `ArrayBuffer` using `FileReader`",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyanderson/get-blob.git"
+  },
+  "author": "Monty Anderson <monty.linux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/montyanderson/get-blob/issues"
+  },
+  "homepage": "https://github.com/montyanderson/get-blob#readme",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "filereader": "^0.10.3"
+  },
+  "browser": {
+    "./FileReader.js": "./FileReader.browser.js"
+  }
+}
